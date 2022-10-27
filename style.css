@@ -94,7 +94,7 @@
 
 /* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
 .footer-bg-img {
-    height: 25vh;
+    height: fit-content;
     background-image: url(./img//footer/filtred.jpg);
     background-position: center top;
     background-size: cover;
