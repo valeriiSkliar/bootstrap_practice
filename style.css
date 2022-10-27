@@ -1,0 +1,140 @@
+.showcase{
+    height: fit-content;
+}
+.showcase {
+    background-image: url(./img/showCase/filter.jpg);
+    background-position: center center;
+    background-size: cover;
+    z-index: 0;
+}
+.our_focus {
+    height: fit-content;
+    background-color: hsl(0deg 0% 97%);
+}
+.story_about_us{
+    height: fit-content;
+}
+.red_line {
+    width: 12%;
+    border: 2px solid red;
+    background-color: red;
+}
+.story_img {
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 0px green;
+    transition: all 0.25s;
+}
+.story_img:hover {
+    filter:grayscale(0%);
+    box-shadow: 8px 8px 0px green;
+}
+.story_img::after:hover {
+    content: 'Super team';
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+
+}
+.video_block {
+    height: 45vh;
+    position: relative;
+    overflow-y: hidden;
+}
+.video_text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.video {
+  overflow-y: hidden;
+  position: absolute;
+  right: 0;
+  min-width: 100%;
+  min-height: 25%;
+}
+.portfolio {
+    height: fit-content;
+}
+.portfolio_image{
+    position: static;
+    min-width: 250px;
+    transition: 0.25s;
+}
+.portfolio_image:hover {
+    box-shadow: 5px 5px 10px rgb(247, 166, 166);
+    background-color: aliceblue;
+}
+/* .portfolio_image:hover::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    content: 'cfsrfgsrgs';
+    width: 100%;
+    height: 100%;
+    background-color: #43f320;
+}
+.portfolio_image:hover:before {
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    content: 'cfsrfgsrgs';
+    width: 100%;
+    height: 100%;
+    background-color: #43f320;
+} */
+.our_team{
+    height: fit-content;
+    background-color: hsl(0deg 0% 97%);
+    
+}
+.img_team{
+    /* max-height: 500px; */
+    max-width: 100px;
+}
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+.footer-bg-img {
+    height: 25vh;
+    background-image: url(./img//footer/filtred.jpg);
+    background-position: center top;
+    background-size: cover;
+    z-index: 0;
+}
+
+.footer-img {
+    max-width: 30px;
+}
+.circle_checkBox {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.in_circle {
+    width: 8px;
+    height: 8px;
+    /* background-color: red; */
+    border-radius: 50%;
+}
+
+.h1 {
+    font-size: 1rem;
+}
+.dollar{
+    max-width: 50px;
+}
+.svg-ico{
+    max-width: 60px;
+}
+.icon-text-1,.icon-text-2,.icon-text-3{
+    font-weight: 600;
+}
+.icon-text-1 {
+    color: #43f320;
+}
+.icon-text-2 {
+    color: #e10fe1;
+}
+.icon-text-3 {
+   color: yellow;
+}
